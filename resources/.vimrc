@@ -1,7 +1,8 @@
 " Don't touch these lines. This sets the directory for vim related config and
 " uses variable interpolation from the Makefile.
 let wdir = "++HOMEDIR++/.vim/"
-let runtimepath=wdir
+"let &rtp=wdir
+set rtp+=++HOMEDIR++/.vim/
 
 " Don't try to be vi compatible
 set nocompatible
