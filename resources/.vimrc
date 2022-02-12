@@ -35,6 +35,8 @@ Plug 'airblade/vim-gitgutter'
 " Including an option for fugitive as it's very popular but my workflow doesn't
 " need it.
 "Plug 'tpope/vim-fugitive'
+" CSV:
+Plug 'chrisbra/csv.vim'
 
 
 " Extra Plugins if desired (language support usually)
