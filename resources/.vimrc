@@ -46,6 +46,9 @@ Plug 'chrisbra/csv.vim'
 " Floating terminal support:
 "++SHOULD_INCLUDE_FLOATERM++Plug 'voldikss/vim-floaterm'
 
+" Slimv support:
+"++SHOULD_INCLUDE_SLIMV++Plug 'kovisoft/slimv'
+
 call plug#end()
 
 "
